@@ -23,6 +23,12 @@ export const constantRouterMap = [
         name: 'About',
         component: () => import('@/views/home/about'),
         meta: { title: '关于我', keepAlive: false }
+      },
+      {
+        path: '/formPage',
+        name: 'formPage',
+        component: () => import('@/views/formPage/index'),
+        meta: { title: '表单', keepAlive: false }
       }
     ]
   }
